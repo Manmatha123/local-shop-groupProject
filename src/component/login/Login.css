@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .container{
+    height: 100vh;
+    width: 100vw;
+  }
+  .loginBody {
+    width: 100vw;
+    height:calc(100vh - 70px);
+    justify-content: center;
+    align-items: center;
+    display: flex;padding:70px 0 0 0;
+    position: relative;
+
+    /* background: linear-gradient(270deg,rgb(238, 229, 238),white,rgb(253, 221, 244));  */
+  }
+  
+  .loginBody .leftLogin {
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+  .leftLogin .loginForm{
+    transition: 0.5s;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 30px 40px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 5px;overflow: hidden;
+  }
+  .leftLogin .loginForm:hover{
+    
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+  .loginForm h2{
+    font-size: 25px;
+    font-family:sans-serif;
+    margin: 0 0 5px 0;
+  }
+  .loginForm p:nth-child(2){
+  font-weight: 500;color: rgb(33, 33, 33);
+  }
+  .loginForm p:nth-child(2) a{
+  padding-left:5px;
+  }
+  .loginForm .inside-form{
+    margin-top: 50px;
+  }
+  .inside-form .inputBox{
+  display: flex;
+  width: 100%;border-radius: 4px;
+  overflow: hidden;padding-top: 5px;
+  height: 35px;margin:0 0 15px 0;
+  border: 2px solid rgb(139, 162, 179);
+  }
+  .inside-form .inputBox i{
+    width:35px;font-size:20px;display: flex;
+    justify-content: center;align-items: center;
+    height: 35px;padding-bottom:12px;
+  }
+  .inside-form label{
+    font-weight: 500;padding:8px 0;
+  }
+  .inside-form .inputBox input{
+    width: 100%;height: 100%;border: 0px solid;
+    outline: none;padding-left:2px;background: transparent;
+  }
+  .inside-form button{
+    width: 100%;height:35px;border: 0px solid;color: white;
+    outline: none;background-color: rgb(127, 23, 224);
+    font-size: 17px;
+  }
+  .loginBody .rightLogin {
+    width: 55%;
+    height: 90%;
+  }
+
+  .login-right-image{
+    width:95%;
+    height:95%;
+    display:flex;
+    justify-content: center;
+    align-items: end;
+  }
