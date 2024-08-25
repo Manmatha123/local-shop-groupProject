@@ -20,7 +20,7 @@ function Home1() {
                     <h1>To Make</h1>
                     <h1>Less <span>Time</span></h1>
                     <h1>More Shoping</h1>
-                    <h1>More Shoping</h1>
+                    
                     <button  onClick={()=>navigate("/shoping/signin")}>Get Satrted</button>
                 </div>
                 <div class="hero-image">
