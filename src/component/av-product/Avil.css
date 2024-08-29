@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+   
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #f0f8ff;
+    position: fixed;
+    
+}
+.container{
+    height: 95vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    margin: 1.5vw 1.5vw;
+    display: flex;
+    flex-direction: row;
+}
+.left-container{
+    width: 15%;
+    height: 100%;
+    /* border: 2px solid green; */
+    background: #faf9f6;
+    border-radius: 5px;
+    padding: 0.5vw 0.5vw;
+
+}
+.right-container{
+    width: 95%;
+    height: 100%;
+    /* border: 2px solid rgb(45, 13, 189); */
+    margin-left: 2vw;
+    background: #faf9f6;
+    padding: 0.5vw 0.5vw;
+    border-radius: 8px;
+
+}
+.left-logo{
+    height: 9%;
+    width: 90%;
+    /* border: 2px solid blue; */
+    margin: 0 auto;
+}
+.left-logo img{
+    height: 100%;
+    width: 100%;
+
+}
+.left-nav{
+    margin-top: 2vw;
+    /* border: 2px solid rgb(16, 16, 0); */
+}
+.navi{
+    height: 5%;
+    width: 90%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    margin: 0.5vw auto;
+    cursor: pointer;
+}
+.navi-text{
+    font-size: 14px;
+    margin-left: 0.7vw;
+}
+
+.right-top{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+.r-search input{
+    height: 70%;
+    width: 120%;
+    border: none;
+    background: #dddddd;
+    border-radius: 3px;
+    margin-top: 0.4vw;
+}
+.user-profile{
+    height: 100%;
+    width: 25%;
+    border: 2px solid green;
+}
+.r-middle{
+    height: 8%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.r-middle input{
+    height: 70%;
+    width: 10%;
+    border: none;
+    background: #dddddd;
+    border-radius: 3px;
+    margin-top: 0.4vw;
+}
+.add-product{
+    height: 80%;
+    width: 11%;
+    font-size: 12px;
+    /* border: 2px solid green; */
+    margin-top: 0.6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background: rgb(71, 120, 255);
+    color: #fff;
+    border-radius: 3px;
+    cursor: cell;
+
+}
+
+.add-product i{
+    font-size: 3vw;
+    color: black;
+}
+
+.product{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid rgb(255, 2, 2); */
+
+}
+.product h5{
+    font-size: 13px;
+    margin: 1vw 0;
+}
+.product-list{
+    height: 9%;
+    width: 100%;
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.5vw;
+    color: #fff;
+    /* background: rgba(71, 120, 255, 0.875); */
+    border-radius: 3px;
+}
+.p-name{
+    height: 95%;
+    width: 25%;
+    /* border: 2px solid green; */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-left: 0.5vw;
+}
+.photo{
+    height: 100%;
+    width: 17%;
+    /* border: 2px solid red; */
+    margin-right: 0.5vw;
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+}
+.p-catagory{
+    height: 95%;
+    width: 9%;
+    /* border: 2px solid green; */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-price{
+    height: 95%;
+    width: 9%;
+    /* border: 2px solid green; */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-stock{
+    height: 95%;
+    width: 9%;
+    /* border: 2px solid green; */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-sold{
+    height: 95%;
+    width: 9%;
+    /* border: 2px solid green; */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-revenew{
+    height: 95%;
+    width: 10%;
+    /* border: 2px solid green; */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-Action{
+    height: 95%;
+    width: 9%;
+    /* border: 2px solid green; */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
