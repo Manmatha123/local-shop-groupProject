@@ -111,7 +111,7 @@ html,body{
 }
 .add-product{
     height: 80%;
-    width: 11%;
+    width: 13%;
     font-size: 12px;
     /* border: 2px solid green; */
     margin-top: 0.6vw;
@@ -127,8 +127,9 @@ html,body{
 }
 
 .add-product i{
-    font-size: 3vw;
-    color: black;
+    font-size: 1.7vw;
+    color: #fff;
+    margin-right: 0.5vw;
 }
 
 .product{
